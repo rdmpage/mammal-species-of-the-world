@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+  <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="0" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
+    <files>
+      <location>msw3-dwc.txt</location>
+    </files>
+    <id index="0" />
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/originalName"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/specificEpithet"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/subgenus"/>
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/genus"/>
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/family"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/order"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/>
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/vernacularName"/>
+    <field default="Animalia" term="http://rs.tdwg.org/dwc/terms/kingdom"/>
+    <field default="ICZN" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
+  </core>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="0" rowType="http://rs.gbif.org/terms/1.0/VernacularName">
+    <files>
+      <location>msw3-dwc.txt</location>
+    </files>
+    <coreid index="0" />
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/vernacularName"/>
+    <field default="EN" term="http://purl.org/dc/terms/language"/>
+  </extension>
+</archive>

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<eml:eml packageId="david_remsen.18.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Mammal Species of the World</title>
+ <creator id="1267118996529"> <organizationName>American Society of Mammalogists</organizationName>
+<onlineUrl>http://www.mammalsociety.org/</onlineUrl>
+</creator>
+ <creator id="1267119017275"><organizationName>Smithsonian Institution National Museum of Natural History</organizationName>
+<onlineUrl>http://www.mnh.si.edu/</onlineUrl>
+</creator>
+<associatedParty id="1267120412740"><individualName><salutation>Dr.</salutation>
+<givenName>Don E.</givenName>
+<surName>Wilson</surName>
+</individualName>
+<role>Editor</role>
+</associatedParty>
+<associatedParty id="1267120507618"><individualName><givenName>DeeAnn M</givenName>
+<surName>Reeder</surName>
+</individualName>
+<role>Editor</role>
+</associatedParty>
+<associatedParty id="1264777976227"><individualName><salutation>Mr.</salutation>
+<givenName>David</givenName>
+<surName>Remsen</surName>
+</individualName>
+<organizationName>GBIF Secretariat</organizationName>
+<positionName>Programme Officer</positionName>
+<address><deliveryPoint>GBIF Secretariat</deliveryPoint>
+<deliveryPoint>Universitetsparken 15</deliveryPoint>
+<city>Copenhagen</city>
+<administrativeArea>&#216;</administrativeArea>
+<postalCode>2100</postalCode>
+<country>DK</country>
+</address>
+<phone phonetype="voice">+45 28751472</phone>
+<electronicMailAddress>dremsen@gbif.org</electronicMailAddress>
+<onlineUrl>http://www.gbif.org</onlineUrl>
+<role>Metadata Provider</role>
+</associatedParty>
+<abstract><para>The data in this checklist of mammal species of the world are being presented for non-commercial, personal, and collections management use only. Copying or redistributing these data in any manner for personal or corporate gain is not permitted.  A list of the authors responsible for various portions of the text can be found here.</para>
+</abstract>
+<keywordSet><keyword>Checklist</keyword>
+</keywordSet>
+<intellectualRights><para>This online list was compiled under the auspices of the American Society of Mammalogists. Copyright 2005 Johns Hopkins University Press. All rights are reserved. The data in this checklist of mammal species of the world are being presented for non-commercial, personal, and collections management use only. Copying or redistributing these data in any manner for personal or corporate gain is not permitted.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Global</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-90.0</westBoundingCoordinate>
+<eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+<northBoundingCoordinate>45.0</northBoundingCoordinate>
+<southBoundingCoordinate>-45.0</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage><taxonomicSystem><classificationSystem><classificationSystemCitation><title>Mammal Species of the World</title>
+<creator><references>1267120507618</references>
+</creator>
+<creator><references>1267120412740</references>
+</creator>
+<book><publisher><organizationName>Johns Hopkins University Press</organizationName>
+</publisher>
+<edition>3rd</edition>
+</book>
+</classificationSystemCitation>
+</classificationSystem>
+<identifierName><organizationName>Unknown</organizationName>
+</identifierName>
+<taxonomicProcedures>Unknown</taxonomicProcedures>
+</taxonomicSystem>
+<taxonomicClassification><taxonRankName>Class</taxonRankName>
+<taxonRankValue>Mammalia</taxonRankValue>
+<commonName>Mammals</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="1267119115810"><individualName><givenName>Joy</givenName>
+<surName>Gold</surName>
+</individualName>
+<organizationName>Division of Mammals, Natural History Museum, Smithsonian</organizationName>
+<positionName>Information Specialist, Vertebrate Zoology</positionName>
+<electronicMailAddress>gold@si.edu</electronicMailAddress>
+<onlineUrl>http://vertebrates.si.edu/other_vz_staff/goldj.html</onlineUrl>
+</contact>
+</dataset>
+ </eml:eml>
