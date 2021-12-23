@@ -1,7 +1,6 @@
-mammal-species-of-the-world
-===========================
+# Mammal Species of the World
 
-Mammal Species of the World, 3rd edition (MSW3) is a database of mammalian taxonomy.
+Mammal Species of the World, 3rd edition (MSW3) is a database of mammalian taxonomy. This repository has a version of the data with some basic cleaning (e.g., encoding). Note that the [ASM Mammal Diversity Database](http://www.mammaldiversity.org) is a update on MSW.
 
 #### Source
 
